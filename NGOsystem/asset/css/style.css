@@ -1,0 +1,13 @@
+.btnlogin{
+    text-decoration: none;
+}
+
+.btnlogin:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.btnsignup{
+    color: aliceblue;
+    text-decoration: none;
+}

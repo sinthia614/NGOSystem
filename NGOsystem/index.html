@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NGO System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="asset/css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <!-- navigation bar section -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="/asset/image/Logo.png" alt="Navbar logo" height="40px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        <!-- Navigation Lists-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <!-- Home -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+
+                        <!-- Projects -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            NGO's
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">NGO 1</a></li>
+                                <li><a class="dropdown-item" href="#">NGO 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">NGO 3</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Category -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Category
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Category 1</a></li>
+                                <li><a class="dropdown-item" href="#">Category 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Category 3</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Donations -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Donations</a>
+                        </li>
+                        <!-- Media -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Media</a>
+                        </li>
+                        <!-- About Us -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+
+                        
+
+                    </ul>
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search"> <input type="search" class="form-control form-control" placeholder="Search..." aria-label="Search"> </form>
+                    <button type="button" class="btn btn-outline-primary me-2"> <a class="btnlogin" href="/user_authentication/login/login.html">Login</a></button>
+                    <button type="button" class="btn btn-primary"><a class="btnsignup" href="/user_authentication/signup/signup.html">Sign-up</a></button>
+                </div>
+            </div>
+        </nav>
+        <!-- navigation bar section -->
+
+        <!-- carousel section-->
+        <div id="carouselExample" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/asset/image/carousel/carousel1.jpg" class="d-block w-100" alt="carousel1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/asset/image/carousel/carousel2.jpg" class="d-block w-100" alt="carousel2">
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- carousel section-->
+
+        <!--card section-->
+        <div class="container py-4"> 
+
+            <!-- 1st Card slot-->
+            <div class="p-5 mb-4 bg-body-tertiary rounded-3"> 
+                <div class="container-fluid py-2 pl-5"> <img src="/asset/image/cards/card1.jpg" alt="" class="float-end rounded-4" height="270px">
+                    <h1 class="display-6 fw-bold">Manage Your NGO <br> Efficiently and Transparently!</h1> 
+                        <p class="col-md-8 fs-4 pl-5">From donor management to project tracking and financial reporting, NGO System provides a powerful platform to digitize and simplify NGO operations.</p> 
+                        
+                    <button class="btn btn-primary btn-lg" type="button">Learn More</button> 
+                </div> 
+            </div> 
+            <!-- 1st Card slot-->
+
+            <!--Accordion section-->
+            <div class="accordion" id="accordionExample">
+                <!--Accordion 1-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h3>Members & Committee Management</h3>
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3">
+                        Easily manage executive members, assign roles, record meetings, and maintain structured organizational information in one centralized system. 
+                        <div><button type="button" class="btn btn-success mt-2">Click Here!</button></div>
+                    </div> 
+
+                    </div>
+                </div>
+                <!--Accordion 1-->
+
+                <!--Accordion 2-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h3>Donor & Donation Management</h3>
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3">
+                        Track donors, record donations, generate receipts, and maintain a complete history of financial contributions with automated reporting. 
+                        <div><button type="button" class="btn btn-success mt-2">Click Here!</button></div>
+                    </div>
+                    </div>
+                </div>
+                <!--Accordion 2-->
+
+                <!--Accordion 3-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h3>Beneficiary Management</h3>
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3">
+                        Register and verify beneficiaries, maintain family information, track previous assistance, and ensure fair and transparent aid distribution. 
+                        <div><button type="button" class="btn btn-success mt-2">Click Here!</button></div>
+                    </div>
+                    </div>
+                </div>
+                <!--Accordion 3-->
+
+                <!--Accordion 4-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <h3>Relief Distribution Management</h3>
+                    </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3">
+                        Efficiently manage aid distribution including food, cash, medical, and educational support while preventing duplicate assistance. 
+                        <div><button type="button" class="btn btn-success mt-2">Click Here!</button></div>
+                    </div>
+                    </div>
+                </div>
+                <!--Accordion 4-->
+
+                <!--Accordion 5-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <h3>Project Management</h3>
+                    </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3">
+                        Plan, monitor, and track NGO projects with budgets, timelines, responsible teams, and progress tracking for better project oversight. 
+                        <div><button type="button" class="btn btn-success mt-2">Click Here!</button></div>
+                    </div>
+                    </div>
+                </div>
+                <!--Accordion 5-->
+
+                <!--Accordion 6-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <h3>Financial & Expense Tracking</h3>
+                    </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3">
+                        Record organizational expenses, track financial activities, and generate accurate financial reports to support accountability and audits. 
+                        <div><button type="button" class="btn btn-success mt-2">Click Here!</button></div>
+                    </div>
+                    </div>
+                </div>
+                <!--Accordion 6-->
+
+                <!--Accordion 7-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        <h3>Volunteer Management</h3>
+                    </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3">
+                        Register volunteers, assign tasks, track participation, and coordinate volunteer activities effectively. 
+                        <div><button type="button" class="btn btn-success mt-2">Click Here!</button></div>
+                    </div>
+                    </div>
+                </div>
+                <!--Accordion 7-->
+
+                <!--Accordion 8-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        <h3>Reports & Transparency</h3>
+                    </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3">
+                        Generate detailed reports including donor reports, beneficiary lists, project summaries, and financial statements to maintain transparency.
+                        <div><button type="button" class="btn btn-success mt-2">Click Here!</button></div>
+                    </div>
+                    </div>
+                </div>
+                <!--Accordion 8-->
+            </div>
+
+        </div>
+        <!-- Card section-->
+
+
+
+
+
+
+    <script src="asset/js/javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>
