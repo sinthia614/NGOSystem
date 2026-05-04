@@ -1,6 +1,3 @@
-# NGOSystem
-NGO Management System Project
-
 # NGO Management System
 
 Our NGO Management System designed to help nonprofit organizations manage their daily operations efficiently, securely, and transparently. The system centralizes donor management, beneficiary tracking, project monitoring, volunteer coordination, distribution records, and financial reporting in one platform.
