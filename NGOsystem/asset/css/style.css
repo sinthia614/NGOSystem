@@ -1,0 +1,157 @@
+.btnlogin{
+    text-decoration: none;
+}
+
+.signin:hover{
+    
+    color: floralwhite;
+}
+.btnlogin:hover{
+    text-decoration: none;
+    
+}
+
+.btnsignup{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.shadoww{
+    text-shadow: 2px 2px 5px #000000;
+}
+.text-info{
+    text-shadow: 2px 2px 5px #033268;
+}
+
+/*--landing--*/
+
+#banner{
+    background-image: linear-gradient(to right, #ffffff, #2d89d4);
+    color: #ffffff;
+    padding-top: 5%;
+    
+}
+.banner-sec-text{
+    color: rgb(61, 204, 97);
+}
+.promo-title{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+    color: #027fc7;
+    text-shadow: 2px 2px 4px #426fc4;
+}
+.promo-details{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(18, 177, 58);
+    
+    text-shadow: 2px 2px 2px #8aa5d8;
+}
+.bottom-img{
+    width: 100%;
+}
+
+
+
+/*--icons--*/
+.social-icons a img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a img:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+/*--footer--*/
+#footer{
+    background-image: linear-gradient(to right, #2d89d4, #ffffff);
+}
+.footer-img{
+    width: 100%;
+}
+
+/*--ngo page title box--*/
+
+.txt-title{
+    position: absolute;
+    left: 0;
+    right: 0;        
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(248, 249, 255, 0.4);
+    font-family: Arial,sans-serif;
+    color: #ecfffb;
+    width: 900px; /* Set the width of the positioned div */
+    height: 50%;
+    
+    text-shadow: 2px 2px 4px #017738;
+}
+
+/*--captcha--*/
+
+.captcha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.captcha-input {
+  width: 20rem;
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+#captcha {
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  height: 3.5em;
+  align-items: center;
+  justify-content: center;
+  width: 8em;
+}
+
+.captcha-input-txt {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.captcha-btn {
+  background-color: #2f66f5;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+.captcha-btn-top {
+      background-color: #2f66f5;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 8em;
+}
+.captcha-box {
+  pointer-events: none;
+}
