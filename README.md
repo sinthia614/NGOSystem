@@ -65,5 +65,6 @@ View total donations, expenses, and financial balance in dashboard reports.
 
 ## Repository
 
-git clone <https://github.com/sinthia614/NGOSystem>
-Download as Zip & Extract Zip
+https://github.com/sinthia614/NGOSystem.git
+gh repo clone sinthia614/NGOSystem
+
