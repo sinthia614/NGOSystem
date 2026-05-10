@@ -1,0 +1,133 @@
+.image-box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.image-box img{
+    height: 250px;
+    object-fit: cover;
+    transition: 0.4s ease;
+}
+
+/* Dark overlay */
+
+.overlay-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.6);
+
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: 0.4s ease;
+
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hover effects */
+
+.image-box:hover .overlay-text{
+    opacity: 1;
+}
+
+.image-box:hover img{
+    transform: scale(1.05);
+}
+
+
+
+.donation-section{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 40px;
+    padding: 80px;
+    background-image: url(/NGOsystem/asset/image/background/background02.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Right box */
+.trust-panel{
+    width: 620px;
+    min-height: 500px;
+
+    background: linear-gradient(to right, rgba(80, 90, 231, 0.575), rgba(219, 70, 102, 0.699));
+    color: white;
+
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+
+    transition: 0.4s ease;
+}
+.trust-panel h2{
+    color: rgb(255, 229, 80);
+}
+
+/* Hover effect */
+.trust-panel:hover{
+    transform: translateX(-8px);
+}
+
+.impact-item{
+    margin-top: 35px;
+}
+
+.impact-item h1{
+    color: rgb(255, 229, 80);
+    font-size: 50px;
+    margin: 0;
+}
+
+.project-card{
+    background: linear-gradient( rgba(219, 219, 219, 0.438), rgba(104, 158, 209, 0.699));
+    transition: 0.3s ease;
+}
+.project-card:hover{
+    transform: scale(1.05);
+}
+
+
+.member-card{
+    background: linear-gradient( rgba(68, 126, 252, 0.438), rgba(80, 201, 90, 0.699));
+    transition: 0.3s ease;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.member-card:hover{
+    transform: translateY(-8px);
+}
+
+.member-img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f1f1f1;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    width: 5%;
+}
